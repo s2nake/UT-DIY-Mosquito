@@ -1,9 +1,12 @@
 // ----------------------------------------------------
+// ATMEGA based Mosquito listening device
+//   - Record WAV file on SD card 
+//.  - Offline processing to identify presence and 
+//.    type of mosquito
 //
+// Derived from:
 // APC magazine - Arduino Masterclass
 // Project #18 - Digital Audio Recorder v6.0
-// Darren Yates - 13 May 2014
-//
 // ----------------------------------------------------
 
 #include <SdFat.h>
